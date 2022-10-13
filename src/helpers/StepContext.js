@@ -3,7 +3,7 @@ import React, { createContext, useState } from "react";
 export const StepContext = createContext({});
 
 const StepContextProvider = (props) => {
-  const [current, setCurrent] = useState(2);
+  const [current, setCurrent] = useState(0);
   const [employeeData, setEmployeeData] = useState({});
   const [finalEmployeeData, setFinalEmployeeData] = useState([]);
 
